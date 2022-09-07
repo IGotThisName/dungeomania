@@ -1,0 +1,18 @@
+name: DungeoMaina
+version: 1.0
+main: me.olmic.dungeomania.Main
+api-version: 1.19
+authors: [ olmic ]
+description: The Main plugin
+commands:
+  class:
+    description: class selection gui
+    aliases: [c]
+  setlvl:
+    description: set a players level
+    aliases: [setlevel, lvlset]
+  getlvl:
+    description: get a players level
+    aliases: [getlevel, lvlget]
+  tomes:
+    description: open the tomes gui
